@@ -1,0 +1,104 @@
+html,body
+{
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#fitlock{
+	position:absolute;
+	margin-left:400px;
+	margin-top:-px;
+	color:white;
+	font-size:60px;
+	font-family:"Tahoma";
+}
+
+#textup{
+	position:absolute;
+	margin-left:400px;
+	margin-top:-290px;
+	color:white;
+	font-size:30px;
+	font-family:"Tahoma";
+}
+
+#text {
+		margin-top:600px;
+	text-align:center;
+	color:white;
+	font-size:50px;
+	font-family:"Tahoma";
+}
+
+#grass {
+	position:relative;
+	background:url('backgroundgrass.png');
+	background-size:cover;
+	background-position:- bottom;
+	width:100%;
+	height:100%;
+}
+
+#wrap{
+	position: relative;
+	top:50%;
+	left:50%;
+}
+
+#suncontain{
+	position:absolute;
+	margin-left:300px;
+	margin-top:-200px;
+}
+
+#lock {
+	position:absolute;
+	width: 400px;
+	margin-left: -200px;
+	margin-top: -256px;
+}
+#lowerwrap{
+	position: relative;
+	top:70%;
+	left:50%;
+}
+
+#progressbg {
+	position:absolute;
+	width: 600px;
+	margin-left: -290px;
+	margin-top: 0px;
+}
+
+#pgrsimg{
+	position:absolute;
+	width:580px;
+	height:42px;
+	margin-left: -280px;
+	margin-top: 8px;
+}
+
+#progress div{
+	position:absolute;
+	margin-top: 8px;
+	height:42px;
+	background-color: #e7c928;
+
+}
+
+#progress{
+	position: relative;
+	top:70%;
+	left:50%;
+	width:580px;
+	height:42px;
+	margin-left: -280px;
+	border-top: 0px;
+}
+
+
+

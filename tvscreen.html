@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="grass">
+		<div id="wrap">
+			<img src="lockicon.png" id="lock">
+					<p id = "fitlock">
+						Fitlock
+					</p>
+					<p id = "textup">
+					</p>
+			<div id = "suncontain">
+				<img src="suncloud.png">
+			</div>
+		</div>
+		<div id = "lowerwrap">
+			<img src="progressbg.png" id="progressbg">
+		</div>
+		<div id = "progress">
+				<div>
+				</div>
+		</div>
+		<div>
+		<p id = "text">
+			<b><font size="70"></font></b>
+			</p>
+		</div>
+	</div>
+
+</body>
+<script type = "text/javascript" src = "script.js"></script>
+<script>var date = new Date(); $("#textup").text((date.getDate() + "/" + (date.getMonth()+1) + "/" + (date.getYear()+1900)));</script>
+</html>
+

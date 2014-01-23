@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html lang="en" class="ie ie8 "><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie ie9 "><![endif]-->
+<!--[else]><!-->
+
+<!--
+
+         _______ _________ _______           _______  _______  _       
+        (       )\__   __/(  ____ \|\     /|(  ___  )(  ____ \( \      
+        | () () |   ) (   | (    \/| )   ( || (   ) || (    \/| (      
+        | || || |   | |   | |      | (___) || (___) || (__    | |      
+        | |(_)| |   | |   | |      |  ___  ||  ___  ||  __)   | |      
+        | |   | |   | |   | |      | (   ) || (   ) || (      | |      
+        | )   ( |___) (___| (____/\| )   ( || )   ( || (____/\| (____/\
+        |/     \|\_______/(_______/|/     \||/     \|(_______/(_______/
+                                                                       
+     ______   _______  _______  _        _______  _______  _______  _       
+    (  ___ \ (  ____ )(  ___  )( (    /|(  ____ \(       )(  ___  )( (    /|
+    | (   ) )| (    )|| (   ) ||  \  ( || (    \/| () () || (   ) ||  \  ( |
+    | (__/ / | (____)|| |   | ||   \ | || (__    | || || || (___) ||   \ | |
+    |  __ (  |     __)| |   | || (\ \) ||  __)   | |(_)| ||  ___  || (\ \) |
+    | (  \ \ | (\ (   | |   | || | \   || (      | |   | || (   ) || | \   |
+    | )___) )| ) \ \__| (___) || )  \  || )      | )   ( || )   ( || )  \  |
+    |/ \___/ |/   \__/(_______)|/    )_)|/       |/     \||/     \||/    )_)
+                   
+
+-->
+
+<html class='' lang='en'>
+<head>
+<title>Oomi Uno - Sign In</title>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http_equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+
+<!-- ========== META DATA START ========== -->
+<meta content='How do you manage your collection of devices?' name='description'>
+<meta content='#' property='twitter:image'>
+<meta content='summary' property='twitter:card'>
+<meta content='@onlyoomi' property='twitter:site'>
+<meta content='Oomi' property='twitter:title'>
+<meta content='How do you manage your collection of devices?' property='twitter:description'>
+<meta content='#' property='og:image'>
+<meta content='website' property='og:type'>
+<meta content='#' property='fb:app_id'>
+<meta content='Oomi Inc.' property='og:site_name'>
+<meta content='Oomi Inc.' property='og:title'>
+<meta content='How do you manage your collection of devices?' property='og:description'>
+<!-- ========== META DATA END ========== -->
+
+<!-- ========== SITE STYLING START ========== -->
+<link href="assets/styles.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/application.js" type="text/javascript"></script>
+<!-- ========== SITE STYLING END ========== -->
+</head>
+
+
+  <div id='l-top'>
+    <div class='l-container'>
+      <div class='span-6' id='l-logo'>
+      <a href="index.html">Oomi Inc.</a>
+      </div>
+    </div>
+  </div>
+
+<div class="flash flash-notice flash-simple" style="z-index: 10"><div class="flash-inner"><a href="#" class="ss-icon ss-icon-small flash-close">&#x2421;</a>Please sign in first.</div></div>
+
+<div id='l-inset'>
+<div class='l-container'>
+
+</div>
+</div>
+
+      <div id='l-main'>
+        <div class='l-container l-body'>
+          <h1 class='tight'>Sign In</h1>
+          <p>
+          Sign in to your account and we’ll get you on your way to taking control.
+          </p>
+          <form accept-charset="UTF-8" action="#" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="#=" /></div>
+                <div class='form-control-group'>
+                <label for="email">Your email</label>
+                <input id="email" name="email" placeholder="you@example.com" type="text" />
+                </div>
+              <div class='form-control-group'>
+              <label for="password">Your password</label>
+              <input id="password" name="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" type="password" />
+              <div class='form-control-action'>
+              <a href="password-resets/new.html" class="js-password-reset-link" onclick="var $link = $(this); var encodedEmail = encodeURIComponent($(&quot;#email&quot;).val()); var href = $link.attr(&quot;href&quot;) + &quot;?email=&quot; + encodedEmail; $link.attr(&quot;href&quot;, href);" rel="nofollow">Forgot your password?</a>
+              </div>
+              </div>
+            <div class='form-buttons'>
+            <input class="btn btn-primary" name="commit" type="submit" value="Sign in" />
+            </div>
+          </form>
+        </div>
+      </div>
+<script type="text/javascript">
+//<![CDATA[
+$('.flash-simple').each(function() { new Flash(this); });
+//]]>
+</script>
+<div class='d-grid'></div>
+</body>
+</html>
